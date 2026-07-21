@@ -1,12 +1,14 @@
-import { Header } from "../../components/Header";
-import { PrimaryCTA } from "../../components/PrimaryCTA";
-import { DemoLinks } from "../../components/DemoLinks";
-import { PortfolioGallery } from "../../components/PortfolioGallery";
-import { Footer } from "../../components/Footer";
+// src/app/page.tsx
+
+import { Header } from "@/components/Header";
+import { PrimaryCTA } from "@/components/PrimaryCTA";
+import { DemoLinks } from "@/components/DemoLinks";
+import { PortfolioGallery } from "@/components/PortfolioGallery";
+import { Footer } from "@/components/Footer";
 
 export default function HomePage() {
   return (
-    <main className="relative min-h-screen overflow-hidden">
+    <main className="relative min-h-screen overflow-hidden bg-black">
       {/* Ambient background glows */}
       <div className="pointer-events-none fixed inset-0 -z-10">
         <div className="absolute left-1/2 top-[-10%] h-[420px] w-[420px] -translate-x-1/2 rounded-full bg-purple-600/20 blur-[120px]" />
