@@ -43,11 +43,11 @@ export interface SocialLink {
 
 export const profile = {
   name: "Azri Safwan WS",
-  avatar: "/images/avatar.jpg",
+  avatar: "avatar.jpg",
   headline:
     "Suka berkongsi hasil reka bentuk web & kod Next.js di masa lapang.",
   whatsappUrl:
-    "https://wa.me/60123456789?text=Hai%20Azri!%20Saya%20nak%20bincang%20tentang%20projek%20website.",
+    "https://wa.me/601121281024?text=Hai%20Azri!%20Saya%20nak%20bincang%20tentang%20projek%20website.",
   whatsappLabel: "Bincang Projek / Sembang Website (WhatsApp) ☕",
 } as const;
 
@@ -93,13 +93,13 @@ export const demoLinks: DemoLink[] = [
 
 export const galleryImages: GalleryImage[] = [
   {
-    src: "/images/work-1.jpg",
-    title: "Aether AI Dashboard",
-    category: "Web App",
+    src: "agent-mockup.jpg",
+    title: "Agent Hartanah Card",
+    category: "Link In Bio",
   },
   {
-    src: "/images/work-2.jpg",
-    title: "Ejen Hartanah Card",
+    src: "mua-mockup.jpg",
+    title: "Make Up Artist Card",
     category: "Digital Card",
   },
   {
