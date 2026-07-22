@@ -43,7 +43,7 @@ export interface SocialLink {
 
 export const profile = {
   name: "Azri Safwan WS",
-  avatar: "avatar.jpg",
+  avatar: "azri-image.jpg",
   headline:
     "Suka berkongsi hasil reka bentuk web & kod Next.js di masa lapang.",
   whatsappUrl:
@@ -102,16 +102,6 @@ export const galleryImages: GalleryImage[] = [
     title: "Make Up Artist Card",
     category: "Digital Card",
   },
-  {
-    src: "/images/work-3.jpg",
-    title: "MUA Sarah Card",
-    category: "Branding",
-  },
-  {
-    src: "/images/work-4.jpg",
-    title: "Landing Page Concept",
-    category: "UI Design",
-  },
 ];
 
 /* ------------------------------------------------------------------ */
@@ -121,12 +111,12 @@ export const galleryImages: GalleryImage[] = [
 export const socialLinks: SocialLink[] = [
   {
     name: "TikTok",
-    url: "https://tiktok.com/@azrisafwanws",
+    url: "tiktok.com/@azrisafwan_ws",
     username: "@azrisafwanws",
   },
   {
     name: "Instagram",
-    url: "https://instagram.com/azrisafwanws",
+    url: "https://www.instagram.com/azrisafwan_ws?igsh=MWRxbzF2ZnlyaWwzYw==",
     username: "@azrisafwanws",
   },
 ];
